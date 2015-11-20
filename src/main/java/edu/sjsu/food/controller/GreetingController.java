@@ -20,4 +20,9 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(),
                 String.format(template, name));
     }
+
+    @RequestMapping("/")
+    public Greeting hello() {
+        return new Greeting(counter.incrementAndGet(), "Hello World!");
+    }
 }
