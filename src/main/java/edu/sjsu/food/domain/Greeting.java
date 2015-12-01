@@ -1,4 +1,4 @@
-package edu.sjsu.food.model;
+package edu.sjsu.food.domain;
 
 /**
  * Created by yutao on 11/18/15.
